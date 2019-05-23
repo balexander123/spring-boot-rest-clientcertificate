@@ -22,7 +22,7 @@ public class RestClientCertTestConfiguration {
 
         SSLContext sslContext = SSLContextBuilder
                 .create()
-                .loadKeyMaterial(ResourceUtils.getFile("classpath:keystore.jks"), allPassword, allPassword)
+                //.loadKeyMaterial(ResourceUtils.getFile("classpath:keystore.jks"), allPassword, allPassword)
                 .loadTrustMaterial(ResourceUtils.getFile("classpath:truststore.jks"), allPassword)
                 .build();
 
