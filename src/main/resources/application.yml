@@ -5,7 +5,7 @@ server:
     key-store-password: allpassword
     trust-store: classpath:truststore.jks
     trust-store-password: allpassword
-    client-auth: need
+#    client-auth: need
 security:
   headers:
     hsts: NONE
